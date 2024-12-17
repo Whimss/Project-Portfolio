@@ -45,13 +45,66 @@ header {
     justify-content: left;
 }
 
-.container-fluid {
+/* Main intro Page*/
+.main-contain {
+    background-color: #fad7e2;
+    border: .25em solid transparent;
+    border-image: linear-gradient(to left, rgb(164, 9, 236), rgb(228, 145, 196));
+    border-image-slice: 1;
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.circle-top {
+    position: fixed;
+    left: -100px;
+    top: -200px;
+    z-index: -1 !important;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(164, 9, 236);
+    opacity: 30%;
+
+}
+
+.circle-bottom {
+    position: fixed;
+    right: -50px;
+    bottom: -200px;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(164, 9, 236);
+    opacity: 30%;
+}
+
+.intro-header {
+    background: -webkit-linear-gradient(0deg, rgb(164, 9, 236), rgb(228, 145, 196));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-info {
+    
+}
+.examples{
+background-color: rgba(228, 145, 196,.3);
+border-radius: 10px;
+}
+
+/* Fix Nation Campaign*/
+.campaign {
     max-width: 600px;
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.container {
+.campaign-container {
     max-width: 600px;
     border: 10px solid #5baea6;
 
@@ -161,34 +214,43 @@ header {
     height: 1.5em;
 }
 
-.btn-custom{
-    background-color:#cceae4 !important;
+.btn-custom {
+    background-color: #cceae4 !important;
     color: #1f8f83 !important;
-    border:2px solid #1f8f83 !important;
+    border: 2px solid #1f8f83 !important;
 }
-.info, .info a{
-    background:#5baea6;
-    color:white;
+
+.info,
+.info a {
+    background: #5baea6;
+    color: white;
 }
-.socials{
-    font-size:30px;
+
+.socials {
+    font-size: 30px;
     color: #1f8f83;
 }
-.bi-twitter{
-color:#46c1f6;
+
+.bi-twitter {
+    color: #46c1f6;
 }
-.bi-youtube{
-    color:#de463b;
+
+.bi-youtube {
+    color: #de463b;
 }
-.bi-instagram{ 
-    color:#e1306c;
+
+.bi-instagram {
+    color: #e1306c;
 }
-.bi-yelp{
-    color:red;
+
+.bi-yelp {
+    color: red;
 }
-.footer{
-    color:grey
+
+.footer {
+    color: grey
 }
+
 @media (max-width: 768px) {
     .flip-card {
         aspect-ratio: 1/1;
