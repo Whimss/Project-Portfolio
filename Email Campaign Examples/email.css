@@ -251,6 +251,12 @@ border-radius: 10px;
     color: grey
 }
 
+/* Promotional Campaign
+#EF798A(pink)
+#596088(dark Blue)
+#9EADC8(light blue)*/
+
+
 @media (max-width: 768px) {
     .flip-card {
         aspect-ratio: 1/1;
