@@ -255,8 +255,25 @@ border-radius: 10px;
 #EF798A(pink)
 #596088(dark Blue)
 #9EADC8(light blue)*/
-
-
+.p-primary{
+    background-color:#596088;
+}
+.p-secondary{
+    background-color:#9EADC8;
+}
+.p-background{
+    background-color:#EF798A;
+}
+.promotional{
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hex {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 @media (max-width: 768px) {
     .flip-card {
         aspect-ratio: 1/1;
